@@ -1,0 +1,27 @@
+file_type: csv
+dataset_name: file
+file_name: predict-student-performance-from-game-play/train
+table_name: edsurv
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns: 
+    - session_id
+      - index
+      - elapsed_time
+      - event_name
+      - name
+      - level
+      - page
+      - room_coor_x
+      - room_coor_y
+      - screen_coor_x
+      - screen_coor_y
+      - hover_duration
+      - text
+      - fqid
+      - room_fqid
+      - text_fqid
+      - fullscreen
+      - hq
+      - music
